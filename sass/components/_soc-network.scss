@@ -1,0 +1,31 @@
+.soc-networks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.soc-networks__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+    transition: var(--transition-bg-color);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+}
+
+.soc-networks__icon {
+    fill: var(--icon-fill);
+    transition: var(--transition-fill);
+    
+    .soc-networks__link:hover &,
+    .soc-networks__link:focus & {
+        fill: var(--icon-hover-color);
+    }
+}

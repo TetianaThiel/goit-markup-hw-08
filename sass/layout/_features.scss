@@ -1,0 +1,41 @@
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.features__item {
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 30px) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 90px) / 4);
+    }
+}
+
+.features__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: var(--our-team-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.features__sub-title {
+    margin-bottom: 10px;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+    
+}
+
+.features__description {
+    color: var(--secondary-color);
+    line-height: 1.71;
+}
