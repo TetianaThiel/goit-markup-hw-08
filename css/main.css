@@ -23,7 +23,7 @@
   --transition-border-color: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-opacity: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --cubik: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html {
@@ -213,8 +213,8 @@ img {
   border: none;
   padding: 0;
   z-index: 1;
-  -webkit-transition: fill var(--cubik);
-  transition: fill var(--cubik);
+  -webkit-transition: fill var(--cubic);
+  transition: fill var(--cubic);
 }
 .menu-btn:hover, .menu-btn:focus {
   fill: var(--accent-color);
@@ -451,12 +451,12 @@ img {
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  -webkit-transition: background-color var(--cubik);
-  transition: background-color var(--cubik);
-  -webkit-transition: -webkit-box-shadow var(--cubik);
-  transition: -webkit-box-shadow var(--cubik);
-  transition: box-shadow var(--cubik);
-  transition: box-shadow var(--cubik), -webkit-box-shadow var(--cubik);
+  -webkit-transition: background-color var(--cubic);
+  transition: background-color var(--cubic);
+  -webkit-transition: -webkit-box-shadow var(--cubic);
+  transition: -webkit-box-shadow var(--cubic);
+  transition: box-shadow var(--cubic);
+  transition: box-shadow var(--cubic), -webkit-box-shadow var(--cubic);
 }
 .button:hover, .button:focus {
   background-color: var(--button-hover-color);
@@ -708,8 +708,8 @@ img {
   background-color: var(--bg-color);
   cursor: pointer;
   outline: none;
-  -webkit-transition: fill var(--cubik);
-  transition: fill var(--cubik);
+  -webkit-transition: fill var(--cubic);
+  transition: fill var(--cubic);
 }
 .close-button:hover, .close-button:focus {
   fill: var(--accent-color);
@@ -757,8 +757,8 @@ img {
   border-radius: 4px;
   padding: 14px 42px;
   outline: none;
-  -webkit-transition: border-color var(--cubik);
-  transition: border-color var(--cubik);
+  -webkit-transition: border-color var(--cubic);
+  transition: border-color var(--cubic);
 }
 .modal-box__input:focus {
   border-color: var(--accent-color);
@@ -770,8 +770,8 @@ img {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: fill var(--cubik);
-  transition: fill var(--cubik);
+  -webkit-transition: fill var(--cubic);
+  transition: fill var(--cubic);
 }
 .modal-box__input:focus + .modal-box__icon {
   fill: var(--accent-color);
@@ -789,8 +789,8 @@ img {
   border-radius: 4px;
   padding: 12px 16px;
   outline: none;
-  -webkit-transition: border-color var(--cubik);
-  transition: border-color var(--cubik);
+  -webkit-transition: border-color var(--cubic);
+  transition: border-color var(--cubic);
   display: block;
 }
 .modal-form__comment:focus {
@@ -898,10 +898,10 @@ img {
   border-radius: 2px;
   border: 2px solid #212121;
   margin-right: 7px;
-  -webkit-transition: -webkit-box-shadow var(--cubik);
-  transition: -webkit-box-shadow var(--cubik);
-  transition: box-shadow var(--cubik);
-  transition: box-shadow var(--cubik), -webkit-box-shadow var(--cubik);
+  -webkit-transition: -webkit-box-shadow var(--cubic);
+  transition: -webkit-box-shadow var(--cubic);
+  transition: box-shadow var(--cubic);
+  transition: box-shadow var(--cubic), -webkit-box-shadow var(--cubic);
 }
 .checkbox-box__input:checked + .checkbox-box__label .checkbox-box__icon-box {
   border: none;
@@ -1090,7 +1090,7 @@ img {
   }
 }
 
-.team__sub-title {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -1099,7 +1099,7 @@ img {
   margin-bottom: 10px;
 }
 
-.team__speciality {
+.team__profession {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.19;

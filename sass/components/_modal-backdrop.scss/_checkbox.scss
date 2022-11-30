@@ -19,7 +19,7 @@
         border-radius: 2px;
         border: 2px solid #212121;
         margin-right: 7px;
-        transition: box-shadow var(--cubik);
+        transition: box-shadow var(--cubic);
         .checkbox-box__input:checked + .checkbox-box__label & {
             border: none;
             background-color: var(--accent-color);
